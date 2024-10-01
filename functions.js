@@ -16,3 +16,10 @@ function sum(a, b) {
 }
 
 sum(3, 4);
+//////////
+function add(c, d) {
+  console.log(c + d);
+}
+let x = 5;
+let y = 6;
+add(x, y);
