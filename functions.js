@@ -23,3 +23,10 @@ function add(c, d) {
 let x = 5;
 let y = 6;
 add(x, y);
+//////////
+function addd(h, g, k) {
+  console.log(h + g + k);
+}
+let n = 5;
+let m = 6;
+addd(n, m, 10);
