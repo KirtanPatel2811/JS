@@ -1,6 +1,6 @@
-function add(h, g, k) {
-  console.log(h + g + k);
+
+let n = [10, 20, 30, 40, 50, 60, 70];
+console.log(n);
+for (let i = 0; i < n.length; i++) {
+  console.log(n[i]);
 }
-let n = 5;
-let m = 6;
-add(n, m, 10);
