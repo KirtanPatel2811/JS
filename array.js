@@ -38,3 +38,22 @@ console.log(n);
 for (let i = 0; i < n.length; i++) {
   console.log(n[i]);
 }
+/////////
+
+let o = [10, 20, 30, 40, 50, 60, 70];
+//order of val , index and array should be same if changed pc will automatically take values in this manner
+o.forEach((val, index, array) => {
+  console.log(`Value: ${val}, Index: ${index}, Array: ${array}`);
+
+  //   console.log(val + "-" + index + "-" + array);
+});
+//if o.for each is stored in other array then it will no work  let a = o.forEach will not work
+
+let p = [10, 20, 30, 40, 50, 60, 70];
+let q = p.map((val, index, array) => {
+  return val;
+});
+console.log(q); // [20, 40, 60, 80, 100, 120, 140]
+console.log(p);
+//
+ṇ;
